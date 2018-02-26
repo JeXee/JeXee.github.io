@@ -1,0 +1,26 @@
+Sivuille tulee:
+-Main
+-Projectit
+-Info
+-Hire me
+
+Väritys on tumma.
+
+Main alustava näkymä
+
+---------
+top bar
+--------
+main
+
+
+--------
+footer
+--------
+
+Hire me alustava näkymä
+
+------
+top bar
+------- 
+main*
