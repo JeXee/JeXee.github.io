@@ -5,31 +5,42 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Title of the document</title>
 <link rel="stylesheet" type="text/css" href="./cssfiles/index.css">
+
+<script>
+/* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+function openNav() {
+    document.getElementById("mySidenav").style.height = "100%";
+    document.getElementById("closebutton").style.display="block";
+    
+    /*document.getElementById("main").style.marginLeft = "250px";*/
+}
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+function closeNav() {
+    document.getElementById("mySidenav").style.height = "0";
+    document.getElementById("closebutton").style.display="none";
+    /*document.getElementById("main").style.marginLeft = "0";*/
+} 
+</script>
+
 </head>
 
 <body>
 <div class ="frapper">
-<div class="topnav">
+	
+<div id="mySidenav" class="sidenav">
+<!--<div class="topnav">-->
+	<span style="font-size:30px;cursor:pointer" id="spanitem" onclick="openNav()">&#9776; open</span>
 	<a href="#">Main</a>
 	<a href="#">Projects</a>
 	<a href="#">Info</a>
 	<a href="#">Hire me</a>
+<a href="javascript:void(0)" id="closebutton" class="closebtn" onclick="closeNav()">&times;</a>
 </div>
 
 <div class="content">
 <h1>Projects</h1>
 
-<div class="inner_content">
-    <div class="inner_content_element">
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-    <div class="inner_content_element">
-		  <h1>Robot arm</h1>
-		<a href="https://github.com/JeXee/JeXee.github.io">
-		<img src="" class="img-responsive" style="width:100%" alt="Image">
-		</a>
-	</div>
     <div class="inner_content_element">
 		  <h1>Robot arm</h1>
 		<a href="https://github.com/JeXee/JeXee.github.io">
@@ -40,8 +51,16 @@
     <div class="inner_content_element">
 		  <h1>Greenhouse</h1>
 		<a href="https://github.com/JeXee/JeXee.github.io">
-		<img src="./images/greenhouse.jpg" href="https://github.com/JeXee/JeXee.github.io" class="img-responsive" style="width:100%" alt="Image">
+		<img src="./images/greenhouse.jpg"  class="img-responsive" style="width:100%" alt="Image">
 		</a>
+	</div>
+    
+
+    <div class="inner_content_element">
+      <h1>Arduino car</h1>
+	<a href="https://github.com/JeXee/JeXee.github.io">
+      <img src="./images/arduino_car.jpg" class="img-responsive"  style="width:100%" alt="Image">
+	</a>
 	</div>
 	
 </div>
