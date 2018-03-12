@@ -52,7 +52,7 @@ body {
     height: 500px;
     width: 500px;
     float:left;
-
+	height: inherit;
 	
 }
 .inner_content_element2 {
