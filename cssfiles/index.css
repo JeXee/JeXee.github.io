@@ -36,6 +36,15 @@ body {
     height: inherit; 
     min-height:1000px; /* Should be removed. Only for demonstration */
     overflow: hidden;
+	/*Flexbox settings*/
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-around;
+}
+.content h1{
+width:100%;	
+	
 }
 .inner_content {
     background-color: inherit;
@@ -50,7 +59,6 @@ body {
     
 	padding: 10px;
     height: 500px;
-    width: 500px;
     float:left;
 	height: inherit;
 	
@@ -132,6 +140,9 @@ outline-width: 10px;
 		float: none;
 		
     }
+	.spanitem{
+		display:none;
+	}
     /*.topnav{
        position:fixed !important;
     }*/
@@ -190,9 +201,16 @@ outline-width: 10px;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
+@media screen and (max-width: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+	.spanitem{
+		display:block;
+	}
+	.content{
+	margin-left:10%;	
+	margin-right:10%;
+	}
 } 
 #closebutton{
 	display: none;
@@ -200,4 +218,9 @@ outline-width: 10px;
 #spanitem{
 	float:inline-start;
 
+}
+.img-responsive{
+	object-fit:cover;
+	max-height:250px;
+	flex-shrink:2;
 }
