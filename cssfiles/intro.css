@@ -11,28 +11,30 @@ margin:auto;
 
 }
 img{
-border-radius:50%;
-width:200px;
-height:200px;
-float:right;
+border-radius: 50%;
+width: 200px;
+height: 200px;
+float: right;
+margin-right: 10%;
 }
 #title{
 float:left;
 
 }
 .inner-content1{
-width:100%;
-height:inherit;
-color:white;
-padding-top:20px;
-overflow:hidden;
+width: 100%;
+height: inherit;
+color: white;
+padding-top: 20px;
+overflow: hidden;
 }
 .inner-content2{
-width:80%;
-height:inherit;
-color:white;
-padding-top:20px;
-margin:auto;
+width: 80%;
+height: inherit;
+color: white;
+padding-top: 20px;
+background-color: #d7c7b866;
+
 }
 .topnav {
     overflow: hidden;
