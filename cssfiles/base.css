@@ -58,10 +58,7 @@ h1,h2{
     background-color: #ddd;
     color: black;
 }
-.topnav a:active{
-	background-color:green;
-	color:red;
-}
+
 ul {
     list-style-type: none;
     margin: 0;
