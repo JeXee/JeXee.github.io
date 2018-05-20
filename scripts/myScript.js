@@ -7,7 +7,7 @@ function datetime() {
 function readTextFile(locate)
 {
 	var file;
-	file = 'file:///C:/Users/heino/Downloads/JeXee.github.io-master/picturetexts/'+locate+'.txt';
+	file = 'picturetexts/'+locate+'.txt';
 	/*Old path*/
 	/*if(locate == 2)
 	{
@@ -40,7 +40,8 @@ function readTextFile(locate)
 function readTextFile2(locate)
 {
 	var file;
-	file = 'file:///C:/Users/heino/Downloads/JeXee.github.io-master/picturetexts/'+locate+'.txt';
+	file = 'picturetexts/'+locate+'.txt';
+	/*file = 'file:///C:/Users/heino/Downloads/JeXee.github.io-master/picturetexts/'+locate+'.txt';*/
 	/*Old path*/
 	/*if(locate == 2)
 	{
