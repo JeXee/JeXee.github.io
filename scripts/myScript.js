@@ -19,6 +19,7 @@ function readTextFile(locate)
 	}*/
     var rawFile = new XMLHttpRequest();
     rawFile.open("GET", file, false);
+	rawFile.overrideMimeType('text/xml; charset=iso-8859-1');
     rawFile.onreadystatechange = function ()
     {
         if(rawFile.readyState === 4)
@@ -53,6 +54,7 @@ function readTextFile2(locate)
 	}*/
     var rawFile = new XMLHttpRequest();
     rawFile.open("GET", file, false);
+	rawFile.overrideMimeType('text/xml; charset=iso-8859-1');
     rawFile.onreadystatechange = function ()
     {
         if(rawFile.readyState === 4)
