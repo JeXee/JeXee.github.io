@@ -26,3 +26,15 @@ top bar
 main*
 
 tekstiä
+
+
+
+
+Jaetun css:elementit(base)- base.css
+-Classes:
+toptitle
+topnav
+frapper
+footer
+innerfooter
+imagecontainer

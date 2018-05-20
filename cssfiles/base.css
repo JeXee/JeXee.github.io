@@ -1,0 +1,125 @@
+/* Style for body*/
+body{
+background-image:url("../images/background.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+color:white;
+font-family: Arial, Helvetica, sans-serif;
+}
+/*Style for toptitle*/
+
+.toptitle{
+height:inherit;
+width:100%	;
+
+}
+h1,h2{
+	margin:auto;
+	color:white;
+	text-align:center;
+}
+.toptitle h1{
+	padding-top:50px;
+}
+.toptitle h2{
+	padding-bottom:30px;
+}
+/*Style for topnav*/
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+    height: 50px;
+    margin:auto;
+}
+.inner-topnav{
+	display:flex;
+    width: 80%;
+    margin: auto;
+	height:inherit;	
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	width:33%;
+}
+.inner-topnav{
+	display:flex;
+    width: 80%;
+    margin: auto;
+	height:inherit;	
+}
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.topnav a:active{
+	background-color:green;
+	color:red;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    font-size:30px;
+}
+li a{
+text-decoration: none;
+color:white;
+}
+li a:hover {
+text-decoration: underline;
+
+}
+/*Style for frapper*/
+.frapper{
+width: 80%;
+margin:auto;
+height:inherit;
+padding-top:50px;
+}
+.inner-frapper{
+width:100%;
+height:inherit;
+display: flex;
+}
+#frapper div {
+flex: 1;	
+}
+/*Style for imagecontainer*/
+.imagecontainer{
+width:50%;
+height:inherit;
+/*float:left;*/
+}
+/*
+img{
+height:auto;
+max-width:90%;
+padding-top:20px;
+/*float: right;
+border-radius: 50%;
+margin-right: 10%;*/
+/*}*/
+
+/* Style the footer */
+.footer {
+    background-color: #2a2a2a66;
+    padding: 10px;
+    color:white;
+	height:inherit;
+}
+#innerfooter{
+text-align: center;
+width: inherit;
+margin: auto;
+max-width: 500px;
+height: inherit;
+}
+#innerfooter ul{
+padding-bottom:30px;
+}

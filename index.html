@@ -4,158 +4,80 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Title of the document</title>
-<link rel="stylesheet" type="text/css" href="./cssfiles/index.css">
-
-<script>
-/* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
-function openNav() {
-    document.getElementById("mySidenav").style.height = "100%";
-    document.getElementById("closebutton").style.display="block";
-    
-    /*document.getElementById("main").style.marginLeft = "250px";*/
+<link rel="stylesheet" type="text/css" href="./cssfiles/base.css">
+<script src="scripts/myScript.js"></script>
+<style>
+.content {
+width:50%;
+height:inherit;
+/*float:left;*/
 }
-
-/* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
-function closeNav() {
-    document.getElementById("mySidenav").style.height = "0";
-    document.getElementById("closebutton").style.display="none";
-    /*document.getElementById("main").style.marginLeft = "0";*/
-} 
-</script>
-
+img{
+max-height:600px;
+height:auto;
+max-width:90%;
+padding-top:20px;
+/*float: right;
+border-radius: 50%;
+margin-right: 10%;*/
+}
+</style>
 </head>
 
-<body>
-<div class ="frapper">
-	
+<body onload="onloadfunction(0)">
+<div class ="toptitle">
+<h1> Jere Heino </h1>
+<h2> Portfolio</h2>
+</div>
 <div class="topnav">
-<!--<div class="topnav">-->
-	<a href="#">Main</a>
-	<a href="#">Projects</a>
-	<a href="#">Info</a>
-	<a href="#">Hire me</a>
+	<div class="inner-topnav">
+		<a id= "Home" href="index.html">Home</a>
+		<a id= "Projects" href="projects.html">Past Projects</a>
+		<a id= "Resume" href="resume.html">Resume</a>
+	</div>
+</div>
+<div class ="frapper">
+<div class ="inner-frapper">
+<div class="imagecontainer">
+	<!--<img src="./images/omakuva.jpg">-->
+	<div class="inner_content_element">
+		<a href="https://github.com/JeXee/JeXee.github.io">
+		<img src="./eye.gif" class="img-responsive" alt="Image">
+		</a>
+</div>
 </div>
 
 <div class="content">
-<h1>Projects</h1>
 
-    <div class="inner_content_element">
-		  <h1>Robot arm</h1>
-		<a href="https://github.com/JeXee/JeXee.github.io">
-		<img src="./images/arm.jpg" class="img-responsive" alt="Image">
-		</a>
-	</div>
-	
-    <div class="inner_content_element">
-		  <h1>Greenhouse</h1>
-		<a href="https://github.com/JeXee/JeXee.github.io">
-		<img src="./images/greenhouse.jpg"  class="img-responsive" alt="Image">
-		</a>
-	</div>
-    
-
-    <div class="inner_content_element">
-      <h1>Arduino car</h1>
-	<a href="https://github.com/JeXee/JeXee.github.io">
-      <img src="./images/arduino_car.jpg" class="img-responsive" alt="Image">
-	</a>
-	</div>
-	<div class="inner_content_element">
-		  <h1>Robot arm</h1>
-		<a href="https://github.com/JeXee/JeXee.github.io">
-		<img src="./images/arm.jpg" class="img-responsive" alt="Image">
-		</a>
-	</div>
-	
-    <div class="inner_content_element">
-		  <h1>Greenhouse</h1>
-		<a href="https://github.com/JeXee/JeXee.github.io">
-		<img src="./images/greenhouse.jpg"  class="img-responsive" alt="Image">
-		</a>
-	</div>
-    
-
-    <div class="inner_content_element">
-      <h1>Arduino car</h1>
-	<a href="https://github.com/JeXee/JeXee.github.io">
-      <img src="./images/arduino_car.jpg" class="img-responsive" alt="Image">
-	</a>
-	</div>
-	<div class="inner_content_element">
-		  <h1>Robot arm</h1>
-		<a href="https://github.com/JeXee/JeXee.github.io">
-		<img src="./images/arm.jpg" class="img-responsive" alt="Image">
-		</a>
-	</div>
-	
-    <div class="inner_content_element">
-		  <h1>Greenhouse</h1>
-		<a href="https://github.com/JeXee/JeXee.github.io">
-		<img src="./images/greenhouse.jpg"  class="img-responsive" alt="Image">
-		</a>
-	</div>
-    
-
-    <div class="inner_content_element">
-      <h1>Arduino car</h1>
-	<a href="https://github.com/JeXee/JeXee.github.io">
-      <img src="./images/arduino_car.jpg" class="img-responsive" alt="Image">
-	</a>
-	</div>
-	<div class="inner_content_element">
-		  <h1>Robot arm</h1>
-		<a href="https://github.com/JeXee/JeXee.github.io">
-		<img src="./images/arm.jpg" class="img-responsive" alt="Image">
-		</a>
-	</div>
-	
-    <div class="inner_content_element">
-		  <h1>Greenhouse</h1>
-		<a href="https://github.com/JeXee/JeXee.github.io">
-		<img src="./images/greenhouse.jpg"  class="img-responsive" alt="Image">
-		</a>
-	</div>
-    
-
-    <div class="inner_content_element">
-      <h1>Arduino car</h1>
-	<a href="https://github.com/JeXee/JeXee.github.io">
-      <img src="./images/arduino_car.jpg" class="img-responsive" alt="Image">
-	</a>
-	</div>
-	
+<div class="inner-content1">
+<h1> Welcome to my portfolio site</h1>
+<p>I'm second year engineer student.</p>
+<p>My hobbies are programming and web designing</p>
+<p>Here you will be able get to know with me </p>
+<p>There is information about projects under Past Projects</p>
+<p>Please also check my resume and if you feel like I'm the guy you are looking for, feel free to contact me.</p>
+<p>I'm always looking for potential projects and work.</p>
 </div>
-<!--Emphty base
-	<div class="inner_content_element">
-      <p>Title</p>
-	<a href="https://github.com/JeXee/JeXee.github.io">
-      <img src="" class="img-responsive"  style="width:100%" alt="Image">
-	</a>
-	</div>-->
-<!--<div class="hover_element">		
-<h1>Site content links</h1>
-<ul>
-<li><a href="#">Main</a></li>
-<li><a href="#">Projects</a></li>
-<li><a href="#">Info</a></li>
-<li><a href="#">Hire me</a></li>
-</div>
-</div>-->
+
+</div><!--content-->
+<!--
 <div class="footer">
 	
 	<div id="innerfooter">
       <h2>Find me in social media</h2>
+        
         <ul>
           <li><a href="https://www.facebook.com/">Facebook</a></li>
           <li><a href="https://www.linkedin.com/in/jere-heino-b1b63a128/">Linkedin</a></li>
           <li><a href="https://twitter.com/heino_jere">Twitter</a></li>
-             <!-- <li><a class="footerlinks" href=""></a></li>       Base    -->
+             <!-- <li><a class="footerlinks" href=""></a></li>       Base    
         </ul>
 
         
 	</div>
-</div>
-</div>
+</div>-->
+</div><!--inner-frapper-->
+</div><!--frapper-->
 </body>
 
 </html>

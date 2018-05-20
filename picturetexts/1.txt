@@ -1,0 +1,12 @@
+Projektin tarkoituksena oli toteuttaa automatisoitu kasvihuone.
+Alustana käytimme kahta Arduino Uno:a. Laitteiden välinen kommunikointi suoritettiin langattomasti RF24 radio lähettimillä.
+Järjestelmää käytettiin pääasiassa ympäristön mittaukseen ja laitteiston ohjaukseen.
+Laitteella mitattiin:
+-Ilmankosteus /br
+-Lämpötila/br
+-Hiilidioksidi pitoisuus ( CO2%)/br
+-Valoisuus/br
+-Maan PH pitoisuus./br
+Kastelu suoritettiin pumpulla ja vesitankin pinnantasoa mitattiin, jotta laitteisto ei kärsisi.
+Valoisuutta säädeltiin moottoroilluilla verhoilla ja ohjattavalla lampulla.
+Hiilidioksidi pitoisuuksiin vaikutettiin ohjattavalla ilmastoinnilla.

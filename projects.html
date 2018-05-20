@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Title of the document</title>
+<link rel="stylesheet" type="text/css" href="./cssfiles/base.css">
+<link rel="stylesheet" type="text/css" href="./cssfiles/projects.css">
+<script src="scripts/myScript.js"></script>
+
+</head>
+
+<body onload="onloadfunction(1)">
+
+<div class ="toptitle">
+<h1> Jere Heino </h1>
+<h2> Portfolio</h2>
+</div>
+<div class="topnav">
+	<div class="inner-topnav">
+		<a id= "Home" href="index.html">Home</a>
+		<a id= "Projects" href="projects.html">Past Projects</a>
+		<a id= "Resume" href="resume.html">Resume</a>
+	</div>
+</div>
+<div class ="frapper">
+<div class="inner-frapper">
+
+<div class="content">
+   <!--Proto textfield-->
+   <!--<div class="inner_content_element">
+		<button class="titlebutton" onclick="readTextFile2(1)">
+		<h1>Greenhouse</h1>
+		<img src="./images/greenhouse.jpg"  class="img-responsive" alt="Image">
+		</button>
+		<div class="extend-info" id="extend-box" style="display:none;">
+		<textarea id="tekstikentta" autofocus="autofocus" readonly="readonly" >
+		</textarea>
+	</div>
+	</div><!--End of extend-info-->
+	
+	   <!--Generation 2-->
+   <div class="inner_content_element">
+		<button class="titlebutton" onclick="change_extend(0)">
+		<h1>Greenhouse</h1>
+		<img src="./images/greenhouse.jpg"  class="img-responsive" alt="Image">
+		</button>
+		<div class="extend-info" id="extend-box" style="display:none;">
+		<p id="demo">TEKSTIÖ</p>
+		</div><!--End of extend-info-->
+	</div>
+	
+	<div class="inner_content_element">
+		<button class="titlebutton" onclick="change_extend(1)">
+		<h1>Robot Arm</h1>
+		<img src="./images/arm.jpg" class="img-responsive" alt="Image">
+		</button>
+		<div class="extend-info" id="extend-box" style="display:none;">
+		<p id="demo">TEKSTIÖ</p>
+		</div><!--End of extend-info-->
+	</div>
+	<div class="inner_content_element">
+		<button class="titlebutton" onclick="change_extend(2)">
+		<h1>Arduino car</h1>
+		<img src="./images/arduino_car.jpg" class="img-responsive" alt="Image">
+		</button>
+		<div class="extend-info" id="extend-box" style="display:none;">
+		<p id="demo">TEKSTIÖ</p>
+		</div><!--End of extend-info-->
+	</div>
+	
+	<div class="inner_content_element">
+		<button class="titlebutton" onclick="change_extend(3)">
+		<h1>Robot Arm</h1>
+		<img src="./images/arm.jpg" class="img-responsive" alt="Image">
+		</button>
+		<div class="extend-info" id="extend-box" style="display:none;">
+		<p id="demo">TEKSTIÖ</p>
+		</div><!--End of extend-info-->
+	</div>
+	
+	<div class="inner_content_element">
+		<button class="titlebutton" onclick="change_extend(4)">
+		<h1>Greenhouse</h1>
+		<img src="./images/greenhouse.jpg"  class="img-responsive" alt="Image">
+		</button>
+		<div class="extend-info" id="extend-box" style="display:none;">
+		<p id="demo">TEKSTIÖ</p>
+		</div><!--End of extend-info-->
+	</div>
+	
+	
+	<div class="inner_content_element">
+		<button class="titlebutton" onclick="change_extend(5)">
+		<h1>Arduino car</h1>
+		<img src="./images/arduino_car.jpg" class="img-responsive" alt="Image">
+		</button>
+		<div class="extend-info" id="extend-box" style="display:none;">
+		<p id="demo">TEKSTIÖ</p>
+		</div><!--End of extend-info-->
+	</div>
+
+	
+	<!--Generation 1--><!--
+	
+    <div class="inner_content_element">
+		<button class="titlebutton" onclick="change_extend(3)">Greenhouse</button>
+		<a href="https://github.com/JeXee/JeXee.github.io">
+		<img src="./images/greenhouse.jpg"  class="img-responsive" alt="Image">
+		</a>
+		<div class="extend-info" id="extend-box" style="display:none;">
+		<p id="demo">TEKSTIÖ</p>
+		</div><!--End of extend-info--><!--
+	</div>
+	<div class="inner_content_element">
+		<button class="titlebutton" onclick="change_extend(4)">Greenhouse</button>
+		<a href="https://github.com/JeXee/JeXee.github.io">
+		<img src="./images/greenhouse.jpg"  class="img-responsive" alt="Image">
+		</a>
+		<div class="extend-info" id="extend-box" style="display:none;">
+		<p id="demo">TEKSTIÖ</p>
+		</div><!--End of extend-info--><!--
+	</div>
+	<div class="inner_content_element">
+		<button class="titlebutton" onclick="change_extend(5)">Greenhouse</button>
+		<a href="https://github.com/JeXee/JeXee.github.io">
+		<img src="./images/greenhouse.jpg"  class="img-responsive" alt="Image">
+		</a>
+		<div class="extend-info" id="extend-box" style="display:none;">
+		<p id="demo">TEKSTIÖ</p>
+		</div><!--End of extend-info--><!--
+	</div>
+    
+	<!--Generation 0,5--><!--
+    <div class="inner_content_element">
+      <button class="titlebutton" onclick="change_extend('file:///C:/Users/heino/Downloads/JeXee.github.io-master/testresume.txt')">Arduino Car</button>
+	<a href="https://github.com/JeXee/JeXee.github.io">
+      <img src="./images/arduino_car.jpg" class="img-responsive" alt="Image">
+	</a>
+	<div class="extend-info" id="extend-box" style="display:none;">
+		<p id="demo">TEKSTIÖ</p>
+	</div>
+	</div>
+	
+	<!--Generation 0-->
+	<!--<div class="inner_content_element">
+		  <h1>Robot arm</h1>
+		<a href="https://github.com/JeXee/JeXee.github.io">
+		<img src="./images/arm.jpg" class="img-responsive" alt="Image">
+		</a>
+		<div class="extend-info" id="extend-box" style="display:none;">
+		<p id="demo">TEKSTIÖ</p>
+		</div><!--End of extend-info-->
+	<!--</div>
+	
+    <div class="inner_content_element">
+		  <h1>Greenhouse</h1>
+		<a href="https://github.com/JeXee/JeXee.github.io">
+		<img src="./images/greenhouse.jpg"  class="img-responsive" alt="Image">
+		</a>
+	</div>
+    
+
+    <div class="inner_content_element">
+      <h1>Arduino car</h1>
+	<a href="https://github.com/JeXee/JeXee.github.io">
+      <img src="./images/arduino_car.jpg" class="img-responsive" alt="Image">
+	</a>
+	</div>
+	<div class="inner_content_element">
+		  <h1>Robot arm</h1>
+		<a href="https://github.com/JeXee/JeXee.github.io">
+		<img src="./images/arm.jpg" class="img-responsive" alt="Image">
+		</a>
+	</div>
+	
+    <div class="inner_content_element">
+		  <h1>Greenhouse</h1>
+		<a href="https://github.com/JeXee/JeXee.github.io">
+		<img src="./images/greenhouse.jpg"  class="img-responsive" alt="Image">
+		</a>
+	</div>
+    
+
+    <div class="inner_content_element">
+      <h1>Arduino car</h1>
+	<a href="https://github.com/JeXee/JeXee.github.io">
+      <img src="./images/arduino_car.jpg" class="img-responsive" alt="Image">
+	</a>
+	</div>
+	<div class="inner_content_element">
+		  <h1>Robot arm</h1>
+		<a href="https://github.com/JeXee/JeXee.github.io">
+		<img src="./images/arm.jpg" class="img-responsive" alt="Image">
+		</a>
+	</div>
+	
+    <div class="inner_content_element">
+		  <h1>Greenhouse</h1>
+		<a href="https://github.com/JeXee/JeXee.github.io">
+		<img src="./images/greenhouse.jpg"  class="img-responsive" alt="Image">
+		</a>
+	</div>
+    
+
+    <div class="inner_content_element">
+      <h1>Arduino car</h1>
+	<a href="https://github.com/JeXee/JeXee.github.io">
+      <img src="./images/arduino_car.jpg" class="img-responsive" alt="Image">
+	</a>
+	</div>-->
+	<div class="inner_content_element">
+    <button type="button" onclick="myFunction()">Try it</button>
+    <button type="button" onclick="datetime()">Gimme Time</button>
+    <button type="button" onclick="readTextFile('file:///C:/Users/heino/Downloads/JeXee.github.io-master/suunnitelma.txt')">Only read file</button>
+    <button type="button" onclick="change_extend('file:///C:/Users/heino/Downloads/JeXee.github.io-master/suunnitelma.txt')">Change extend</button>
+    <button type="button" onclick="change_extend('file:///C:/Users/heino/Downloads/JeXee.github.io-master/testresume.txt')">Testresume</button>
+    <button type="button" onclick="just_extend()">Only extend</button>
+    <button type="button" onclick="only_hide()">Only hide</button>
+	 </div>
+	<!--
+	<div class="inner_content_element">
+     <button type="button" onclick="myFunction()">Try it</button>
+	</div>
+	<div class="inner_content_element">
+     <button type="button" onclick="datetime()">Gimme Time</button>
+	</div>
+	<div class="inner_content_element">
+     <button type="button" onclick="readTextFile('file:///C:/Users/heino/Downloads/JeXee.github.io-master/suunnitelma.txt')">Only read file</button>
+	</div>
+	<div class="inner_content_element">
+     <button type="button" onclick="change_extend('file:///C:/Users/heino/Downloads/JeXee.github.io-master/suunnitelma.txt')">Change extend</button>
+	</div>
+	<div class="inner_content_element">
+     <button type="button" onclick="change_extend('file:///C:/Users/heino/Downloads/JeXee.github.io-master/testresume.txt')">Testresume</button>
+	</div>
+	<div class="inner_content_element">
+     <button type="button" onclick="just_extend()">Only extend</button>
+	</div>
+	<div class="inner_content_element">
+     <button type="button" onclick="only_hide()">Only hide</button>
+	</div>-->
+</div>
+<div class="extend-info" id="extend-box"style="display:none;">
+<p id="demo">TEKSTIÖ</p>
+</div><!--End of extend-info-->
+</div><!--End of inner-frapper-->
+</div><!--End of frapper-->
+</body>
+
+</html>
