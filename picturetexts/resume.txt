@@ -1,33 +1,31 @@
-
-
 <h1> Who is Jere Heino?</h1>
-<p>Olen toisen kolmannen vuoden insinööriopiskelija. Opiskelen tieto- ja viestintätekniikkaa ja erikoistun älykkäisiin järjestelmiin. 
-Minulla on ohjelmointikokemnusta mikrokontrollereille ja työpöytäympäristöön c ja c++ kielillä.
-Olen ollut osana muutamien webbi sovellusten kehityksessä.
-Osaamisalueitani ovat:
-*Scrum
-*Web kehitys
-*Ohjelmointi
-*Kommunikointitaidot
+<p>Olen toisen kolmannen vuoden insinÃ¶Ã¶riopiskelija. Opiskelen tieto- ja viestintÃ¤tekniikkaa ja erikoistun Ã¤lykkÃ¤isiin jÃ¤rjestelmiin. <br>
+Minulla on ohjelmointikokemnusta mikrokontrollereille ja tyÃ¶pÃ¶ytÃ¤ympÃ¤ristÃ¶Ã¶n c ja c++ kielillÃ¤.<br>
+Olen ollut osana muutamien webbi sovellusten kehityksessÃ¤.<br>
+Osaamisalueitani ovat:<br>
+*Scrum<br>
+*Web kehitys<br>
+*Ohjelmointi<br>
+*Kommunikointitaidot<br>
 
--Työkokemus-
-ATK Palvelu VML
-Elektroniikka huolto
-Harjoittelujakso 15.02.2016-27.05.2015
-Kesätyö 01.07.2016-29.07.2016
+-TyÃ¶kokemus-<br>
+ATK Palvelu VML<br>
+Elektroniikka huolto<br>
+Harjoittelujakso 15.02.2016-27.05.2015<br>
+KesÃ¤tyÃ¶ 01.07.2016-29.07.2016<br>
 
-Ylä-Savon ICT-palvelut Oy
-Työnkuvaan kuului asiakaspalvelua ja ICT-tuki.
-Harjoittelujakso 05.01.2015-27.02.2015
+YlÃ¤-Savon ICT-palvelut Oy<br>
+TyÃ¶nkuvaan kuului asiakaspalvelua ja ICT-tuki.<br>
+Harjoittelujakso 05.01.2015-27.02.2015<br>
 
-Koulutus
-Peruskoulu 		Nivan yläkoulu 2012
-Ammattiopisto. 		Ylä-Savon ammattiopisto. Tieto- ja tietoliikenne asentaja. 2013-2016
-Ammattikorkeakoulu	Kajaanin Ammattikorkeakoulu. Tieto- ja viestintätekniikan koulutus,
-			insinööri. 2016-Kurssit
+Koulutus<br>
+Peruskoulu 		Nivan ylÃ¤koulu 2012<br>
+Ammattiopisto. 		YlÃ¤-Savon ammattiopisto. Tieto- ja tietoliikenne asentaja. 2013-2016<br>
+Ammattikorkeakoulu	Kajaanin Ammattikorkeakoulu. Tieto- ja viestintÃ¤tekniikan koulutus,
+			insinÃ¶Ã¶ri. 2016-Kurssit<br>
 	
-Tulityökoulutus.	 	Voimassa 9.12.2016.
-Työturvallisuuskoulutus.	Voimassa 10/2018
-Hätäensiapukoulutus. 		Voimassa 5/2019
+TulityÃ¶koulutus.	 	Voimassa 9.12.2016.<br>
+TyÃ¶turvallisuuskoulutus.	Voimassa 10/2018<br>
+HÃ¤tÃ¤ensiapukoulutus. 		Voimassa 5/2019<br>
 </p>
-<p>Olen aktiivisesti hakemassa töitä, jos tuntuu siltä, niin ottakaa yhteyttä.</p>
+<p>Olen aktiivisesti hakemassa tÃ¶itÃ¤, jos tuntuu siltÃ¤, niin ottakaa yhteyttÃ¤.</p>
