@@ -117,7 +117,6 @@ function onloadfunction(page)
 	if(page == 0)
 	{
 		x = document.querySelectorAll("#Home");
-		onloadgenerate(page);
 	}
 	if(page == 1)
 	{
@@ -129,39 +128,39 @@ function onloadfunction(page)
 	}
 	x[0].style.backgroundColor = "#a3a3a3";
 	x[0].style.color = "black";
+	onloadgenerate(page);
 }
 function onloadgenerate(locate)
 {
 	var file;
 	var x,y;
+	y = document.querySelectorAll(".inner-content1");
 	if(locate == 0)
 	{
 		x = "home";
-		y = document.getElementsByClassName("inner-content1");
 	}
 	if(locate == 1)
 	{
 		x = "projects";
-		y = document.getElementsByClassName("inner-content1");
 	}
 	if(locate == 2)
 	{
 		x = "resume";
-		y = document.getElementsByClassName("inner-content1");
 	}
 	file = 'picturetexts/'+x+'.txt';
-	/*Old path*/
-	/*if(locate == 2)
-	{
-		file = 'file:///C:/Users/heino/Downloads/JeXee.github.io-master/suunnitelma.txt';
-	}
-	if(locate > 2)
-	{
-		file = 'file:///C:/Users/heino/Downloads/JeXee.github.io-master/suunnitelma.txt';	
-	}*/
+    /*file= 'file:///C:/Users/heino/Desktop/update/JeXee.github.io-master/JeXee.github.io-a3c3b840ce3ae8cd3567c2f787e4d17d65377360/picturetexts/home.txt';*/
+    /*Old path*/
+    /*if(locate == 2)
+    {
+        file = 'file:///C:/Users/heino/Downloads/JeXee.github.io-master/suunnitelma.txt';
+    }
+    if(locate > 2)
+    {
+        file = 'file:///C:/Users/heino/Downloads/JeXee.github.io-master/suunnitelma.txt';   
+    }*/
     var rawFile = new XMLHttpRequest();
     rawFile.open("GET", file, false);
-	rawFile.overrideMimeType('text/xml; charset=iso-8859-1');
+    rawFile.overrideMimeType('text/xml; charset=iso-8859-1');
     rawFile.onreadystatechange = function ()
     {
         if(rawFile.readyState === 4)
@@ -170,10 +169,10 @@ function onloadgenerate(locate)
             {
                 var allText = rawFile.responseText;
                 /*document.getElementById("extend-box").innerHTML = allText;*/
-				/*y = document.getElementsByClassName("inner-content1");*/
-				/*var y = document.getElementById("extend-box");*/
-				/*var y = document.querySelectorAll("#extend-box")*/
-				y.innerHTML = allText;
+                /*var x = document.getElementsByClassName("inner_content_element");
+                var y = document.getElementById("extend-box");*/
+                /*var x = document.querySelectorAll(".inner-content1")*/
+                y[0].innerHTML = allText;
             }
         }
     }
