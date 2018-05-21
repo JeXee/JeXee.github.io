@@ -117,6 +117,7 @@ function onloadfunction(page)
 	if(page == 0)
 	{
 		x = document.querySelectorAll("#Home");
+		onloadgenerate(page);
 	}
 	if(page == 1)
 	{
@@ -125,10 +126,11 @@ function onloadfunction(page)
 	if(page == 2)
 	{
 		x = document.querySelectorAll("#Resume");
+		onloadgenerate(page);
 	}
 	x[0].style.backgroundColor = "#a3a3a3";
 	x[0].style.color = "black";
-	onloadgenerate(page);
+
 }
 function onloadgenerate(locate)
 {
