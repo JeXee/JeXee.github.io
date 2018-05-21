@@ -1,0 +1,7 @@
+<h1> Welcome to my portfolio site</h1>
+<p>I'm second year engineer student.</p>
+<p>My hobbies are programming and web designing</p>
+<p>Here you will be able get to know with me </p>
+<p>There is information about projects under Past Projects</p>
+<p>Please also check my resume and if you feel like I'm the guy you are looking for, feel free to contact me.</p>
+<p>I'm always looking for potential projects and work.</p>
