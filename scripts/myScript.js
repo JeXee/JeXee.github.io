@@ -19,7 +19,8 @@ function readTextFile(locate)
 	}*/
     var rawFile = new XMLHttpRequest();
     rawFile.open("GET", file, false);
-	rawFile.overrideMimeType('text/xml; charset=iso-8859-1');
+	/*rawFile.overrideMimeType('text/xml; charset=iso-8859-1');*/
+	rawFile.overrideMimeType("application/json");
     rawFile.onreadystatechange = function ()
     {
         if(rawFile.readyState === 4)
