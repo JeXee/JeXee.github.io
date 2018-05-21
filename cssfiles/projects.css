@@ -64,7 +64,8 @@ width:100%;
 .extend-info {
 	width:100%;
 	max-height:500px;
-	background-color:green;
+	/*background-color:green;*/
+	background-color:#2a2a2a66;
 	height:inherit;
 	display:none;
 }
