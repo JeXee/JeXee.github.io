@@ -7,7 +7,7 @@ Laitteella mitattiin:<br>
 -Lämpötila<br>
 -Hiilidioksidi pitoisuus ( CO2%)<br>
 -Valoisuus<br>
--Maan PH arvo.<br>
+-Maan PH arvo.<br><br>
 Kastelu suoritettiin pumpulla ja vesitankin pinnantasoa mitattiin, jotta laitteisto ei kärsisi.<br>
 Valoisuutta säädeltiin moottoroilluilla verhoilla ja ohjattavalla lampulla.<br>
 Hiilidioksidi pitoisuuksiin vaikutettiin ohjattavalla ilmastoinnilla.<br>
