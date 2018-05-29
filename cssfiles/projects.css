@@ -85,3 +85,25 @@ display: block;
     text-align: center;
 
 }
+.frapper {
+width:60%;
+}
+
+/*Mobile Scale*/
+@media only screen and (max-width: 600px) {
+		.frapper{
+		width:100%;
+		margin:auto;
+		}
+		.titlebutton {
+		padding: 0;
+		}
+		.inner_content_element{
+		width:100%;
+		margin:auto;
+		}
+		.img-responsive{
+		max-width: 100%;
+		max-height:unset;
+		}
+}
