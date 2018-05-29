@@ -16,13 +16,16 @@ margin-right: 10%;*/
 
 /*Mobile Scale*/
 @media only screen and (max-width: 600px) {
-		.inner-frapper {
-    flex-direction:column;
-    }
-    .content{
-    width:100%;
-    }
-    .frapper{
-    width:100%;
-    }
+.inner-frapper {
+flex-direction:column;
+}
+.content{
+width:100%;
+}
+.frapper{
+width:100%;
+}
+.imagecontainer {
+margin:auto
+}
 }
