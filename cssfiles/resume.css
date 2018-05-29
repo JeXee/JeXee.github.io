@@ -1,0 +1,28 @@
+.content {
+width:50%;
+height:inherit;
+/*float:left;*/
+}
+img{
+padding-left: 10%;
+max-height:600px;
+height:auto;
+max-width:90%;
+padding-top:20px;
+/*float: right;
+border-radius: 50%;
+margin-right: 10%;*/
+}
+
+/*Mobile Scale*/
+@media only screen and (max-width: 600px) {
+		.inner-frapper {
+    flex-direction:column;
+    }
+    .content{
+    width:100%;
+    }
+    .frapper{
+    width:100%;
+    }
+}
